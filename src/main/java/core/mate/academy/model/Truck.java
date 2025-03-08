@@ -24,6 +24,16 @@ public class Truck extends Machine {
     }
 
     @Override
+    public void setColor(String color) {
+        super.setColor(color);
+    }
+
+    @Override
+    public void setName(String name) {
+        super.setName(name);
+    }
+
+    @Override
     public void doWork() {
         System.out.println("Truck started to work");
     }
